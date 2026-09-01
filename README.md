@@ -7,34 +7,25 @@ The project covers read preprocessing, reference alignment, transcript assembly 
 The workflow was originally developed and executed as part of MSc Bioinformatics coursework at the University of Glasgow and has been adapted here as a portfolio project.
 
 ## Workflow
-Raw RNA-seq reads
-        │
-        ▼
-Adapter trimming (Scythe)
-        │
-        ▼
-Quality/length filtering (Sickle)
-        │
-        ▼
-Read alignment (HISAT2)
-        │
-        ▼
-SAM → BAM conversion and sorting (SAMtools)
-        │
-        ▼
-Transcript assembly & quantification (StringTie)
-        │
-        ▼
-Gene/transcript count matrices
-        │
-        ▼
-Exploratory analysis & QC (R)
-        │
-        ▼
-Differential expression analysis (DESeq2)
-        │
-        ├── PCA
-        ├── Dispersion analysis
-        ├── MA plots
-        ├── Mean-SD analysis
-        └── Batch-effect investigation (limma)
+1. Raw RNA-seq reads
+
+2. Adapter trimming (Scythe)
+
+3. Quality/length filtering (Sickle)
+
+4. Read alignment (HISAT2)
+
+5. SAM → BAM conversion and sorting (SAMtools)
+
+6. Transcript assembly & quantification (StringTie)
+
+7. Gene/transcript count matrices
+
+8. Exploratory analysis & QC (R)
+
+9. Differential expression analysis (DESeq2): 
+   - PCA 
+   - Dispersion analysis
+   - MA plots
+   - Mean-SD analysis
+   - Batch-effect investigation (limma)
