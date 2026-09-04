@@ -20,3 +20,9 @@
 - svglite: SVG figure export
 - RColorBrewer: colour palettes for visualisation
 - genefilter: expression filtering/statistical utilities
+
+
+### Software Versions
+| Software | Version |
+| -------- | -------- |
+| R | 
